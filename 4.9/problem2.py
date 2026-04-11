@@ -21,3 +21,12 @@ else :
     result = "Invalid"
     
 print(result)
+
+# Expert
+# is_valid = (
+#     len(username) >= 5
+#     and username[0].isalpha()
+#     and " " not in username
+# )
+
+# print("Valid" if is_valid else "Invalid")

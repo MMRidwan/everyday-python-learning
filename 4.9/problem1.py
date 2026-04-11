@@ -21,3 +21,14 @@ elif n % 3 == 0 and n % 5 != 0 :
 elif n % 3 != 0 and n % 5 == 0 :
     print("Buzz")
     
+    
+# Expert :
+# result = ""
+
+# if n % 3 == 0:
+#     result += "Fizz"
+# if n % 5 == 0:
+#     result += "Buzz"
+
+# print(result or n)
+    
