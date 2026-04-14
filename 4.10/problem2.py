@@ -34,11 +34,11 @@ numbers = [4, 3, 2, 7, 8, 2, 3, 1]
 
 def find_first_duplicate(numbers) :
     seen = []
-    for i in range(len(numbers)) :
-        if numbers[i] in seen :
-            return numbers[i]
+    for i in numbers :
+        if i in seen :
+            return i
         else :
-            seen.append(numbers[i])
+            seen.append(i)
     return -1        
     
 print(find_first_duplicate([4, 3, 2, 7, 8, 2, 3, 1]))
