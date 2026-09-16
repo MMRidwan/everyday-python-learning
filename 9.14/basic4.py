@@ -3,7 +3,7 @@ for i in range(3):
         if j == 1:
             print(f"breaking inner at i={i}, j={j}")
             break
-    print(f"outer i={i} continues")
+    print(f"outer i={i} continues") # this only runs after breaking
     
     
 # i at 0 -> j at 0
