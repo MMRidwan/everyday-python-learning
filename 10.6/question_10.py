@@ -1,0 +1,1 @@
+raw = "3 4", a, b = raw.split(), total = a + b, print(f"Total: {total}")
